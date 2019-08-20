@@ -15,11 +15,13 @@ public class Shootarrow : MonoBehaviour
             {
 
             // Choose which arrow to shoot
-            arrowPrefab = Resources.Load("arrow.prefab") as GameObject;
+            arrowPrefab = Resources.Load("arrow") as GameObject;
 
 
             // spawn an arrow object on the arrow-shooter position
-            GameObject newArrow = Instantiate(arrowPrefab);
+            GameObject newArrow = Instantiate(arrowPrefab) as GameObject;
+            newArrow.transform.position = transform.position;
+
 
             }
         }
