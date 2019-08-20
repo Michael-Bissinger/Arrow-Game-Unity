@@ -5,20 +5,17 @@ using UnityEngine;
 public class Shootarrow : MonoBehaviour
 {
 
-    GameObject arrow;
+    private GameObject arrowPrefab;
 
     // Update is called once per frame
     void Update()
     {
-        foreach (Touch touch in Input.touches)
-        {
-            if (touch.phase == TouchPhase.Began)
+            if (Input.GetMouseButtonDown (0) )
             {
-                
-                // spawn an arrow object on the arrow-shooter position
 
+            // spawn an arrow object on the arrow-shooter position
+            GameObject newArrow = Instantiate(arrowPrefab);
 
             }
         }
-    }
 }
