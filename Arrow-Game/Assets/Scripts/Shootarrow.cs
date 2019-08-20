@@ -27,6 +27,7 @@ public class Shootarrow : MonoBehaviour
             newArrow.transform.position = transform.position;
 
 
+
             }
         }
 }
