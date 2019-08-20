@@ -9,7 +9,7 @@ public class Shootarrow : MonoBehaviour
 
     void Start()
     {
-        arrowPrefab = Resources.Load("arrow") as GameObject;
+        
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class Shootarrow : MonoBehaviour
             {
 
             // Choose which arrow to shoot
-
+            arrowPrefab = Resources.Load("arrow") as GameObject;
 
             // spawn an arrow object on the arrow-shooter position
             GameObject newArrow = Instantiate(arrowPrefab) as GameObject;
