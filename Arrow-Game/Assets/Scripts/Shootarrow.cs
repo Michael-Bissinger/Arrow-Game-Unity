@@ -9,7 +9,7 @@ public class Shootarrow : MonoBehaviour
 
     void Start()
     {
-        arrowPrefab = Prefabs.Load("arrow.prefab") as GameObject;
+        arrowPrefab = Resources.Load("arrow") as GameObject;
     }
 
     // Update is called once per frame
