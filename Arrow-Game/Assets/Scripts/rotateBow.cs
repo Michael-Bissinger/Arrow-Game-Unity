@@ -30,7 +30,7 @@ public class rotateBow : MonoBehaviour
         }
 
 
-        transform.Rotate(new Vector3(0f, 0f, -direction));
+        transform.Rotate(new Vector3(0f, 0f, direction));
 
 
     }
