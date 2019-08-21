@@ -19,7 +19,7 @@ public class rotateBow : MonoBehaviour
         if (direction == 1f)
         {
 
-            if (transform.Rotate(new Vector3(0f, 0f, -40f)))
+            if (this.transform.rotation.eulerAngles.y == 40)
             {
                 // If this point is reached, then change the direction
 
