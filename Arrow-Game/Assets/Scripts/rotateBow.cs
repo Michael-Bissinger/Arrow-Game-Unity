@@ -19,11 +19,12 @@ public class rotateBow : MonoBehaviour
         if (direction == 1f)
         {
 
-            if (this.transform.rotation.eulerAngles.y == 40)
+            if (this.transform.rotation.z == 40)
             {
                 // If this point is reached, then change the direction
 
                 direction = -1f;
+                GUILayout.Label("Test");
             }
 
 
