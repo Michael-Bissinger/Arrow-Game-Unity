@@ -527,6 +527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1584610127}
   - component: {fileID: 1584610126}
+  - component: {fileID: 1584610128}
   m_Layer: 0
   m_Name: bow-black
   m_TagString: Untagged
@@ -590,13 +591,25 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584610125}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.34406942, w: 0.9389442}
   m_LocalPosition: {x: 96.5, y: 11.8, z: 0}
   m_LocalScale: {x: 3.7, y: 3.7, z: 3.7}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -40.25}
+--- !u!114 &1584610128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584610125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2090f0c99a90e47478180a99d5b9448d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1769064665
 GameObject:
   m_ObjectHideFlags: 0
